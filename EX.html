@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <style>
+      body,
+      html {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        height: 1500px;
+      }
+      .red-box {
+        height: 200px;
+        width: 1100px;
+        background-color: red;
+        position: fixed;
+      }
+      .blue-box {
+        height: 1000px;
+        width: 700px;
+        background-color: blue;
+        margin-top: 200px;
+        padding: 50px;
+        display: inline-block;
+      }
+      .white-box {
+        color: white;
+        font-size: 4em;
+        display: inline;
+      }
+      .yellow-box {
+        height: 1120px;
+        width: 296px;
+        margin-top: -150px;
+        margin-left: 750px;
+        border: gray solid 2px;
+        background-color: yellow;
+      }
+      .green-box {
+        height: 100px;
+        width: 200px;
+        margin-left: 700px;
+        background: green;
+        position: relative;
+        top: -1150px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="red-box"></div>
+    <div class="blue-box">
+      <div class="white-box">This is the day one</div>
+      <div class="yellow-box"></div>
+    </div>
+    <div class="green-box"></div>
+  </body>
+</html>
